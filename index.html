@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <title>GDR - Dragon Slayer</title>
+</head>
+
+<body>
+    <div id="gioco">
+        <header>
+            <div id="nomeGioco">
+                DragonSlayer
+            </div>
+            <div id="statisticheGiocatore">
+                Lvl: <strong><span id="livello"></span></strong>
+                XP: <strong><span id="xp"></span></strong>
+                Salute: <strong><span id="curSalute"></span></strong>/<strong><span id="maxVita"></span></strong>
+                Difesa: <strong><span id="def"></span></strong>
+                Forza: <strong><span id="forza"></span></strong>
+                Oro: <strong><span id="oro"></span></strong>
+            </div>
+        </header>
+        <main>
+            <div id="mainContainer">
+                <div id="testo"></div>
+                
+                <div id="statisticheMostro">Stat mostro</div>
+                <div id="comandi">
+                    <div id="comandiContainer">
+                        <button id="bottone0"></button>
+                        <button id="bottone1"></button>
+                        <button id="bottone2"></button>
+                        <button id="bottone3"></button>
+                    </div>
+                </div>
+                <div id="negozioContainer">
+                    <div id="negozio"></div>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div id="immagine"><img id="img" src="./res/img/0.webp"></div>
+            <div id="equip"><h1>Equipaggiamento</h1>
+                <div id="equipContainer"></div>
+            </div>
+            <div id="borsa"><h1>Borsa</h1>
+                <div id="borsaContainer"></div>
+            </div>
+        </aside>
+        <footer><div id="msg"></div></footer>
+    </div>
+    <script src="./oggetti-.js"></script>
+    <script src="./script-.js"></script>
+</body>
+
+</html>
