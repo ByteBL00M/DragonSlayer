@@ -116,7 +116,8 @@ div.itemMini > button {
     color: #396583;
     font-size: smaller;
     font-weight: bold;
-    margin-top: 5px;;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 
@@ -147,6 +148,9 @@ main{
     justify-content: space-evenly;
 }
 
+#messaggio{
+    margin-top: 10px;
+}
 .cat{
     display: flex;
     flex-wrap: wrap;
