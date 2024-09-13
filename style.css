@@ -151,6 +151,13 @@ main{
 #messaggio{
     margin-top: 10px;
 }
+
+#statisticheMostro{
+    border: 1px solid rgb(90, 0, 0);
+    background-color: rgba(90, 0, 0, 0.5);
+    text-align: center;
+}
+
 .cat{
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +193,20 @@ div.negozioItem > span.descrizioneItem {
 .ok{
     padding: 10px;
     margin-top: 10px;
+}
+
+.positivo {
+    font-size: small;
+    color:rgb(32, 160, 0);
+}
+
+.negativo{
+    font-size: small;
+    color: rgb(182, 0, 0);
+}
+
+.neutrale{
+    font-size: small;
 }
 
 /* ELEMENTI NEL FOOTER */
